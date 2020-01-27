@@ -1,0 +1,20 @@
+---
+title: "Partner's File"
+author: "Connor Toliver; GitHub: @connortoliver"
+date: "1/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Most recent commit
+ID: c47c697
+Message: "Updated hw1"
+
+## hw1
+Yes, I was able to knit hw1.Rmd without error.
+
+## Tip
+Know the basic git commands (`add`, `init`, `push`, `pull`, `commit`, `status`) to streamline git and GitHub.
