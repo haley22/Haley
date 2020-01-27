@@ -1,3 +1,9 @@
+title: 'DS 202 - Homework #1'
+author: "Haley Humphries (github: haley22)"
+date: "1/19/2018"
+output: html_document
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -14,7 +20,17 @@ You can download a copy of this `Rmd` file on the [course website](https://xdaii
     a. a link 
     b. an image
     c. an italized and a bolded word.
+    
+Data Scientists have to find or collect, **clean**, and organize data. They have to use data science to find patterns in data or solutions to their problems they are trying to solve. It is often used to make business decisions based on the analyzed data. It is *very* similar to a data analyst but data scientists are more technical. 
+https://www.northeastern.edu/graduate/blog/data-science-careers-shaping-our-future/
+
+![What-Is-Data-Science.webp](https://intellipaat.com/blog/wp-content/uploads/2016/11/What-is-Data-Science.docx.jpg)
+
 3. To make sure your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Put this command into a R code trunk in your `Rmd` file to automatically include the R version in your report. 
+```{r}
+version
+```
+
 4. Install git. 
     - If you are on Windows operating system: 
         a. Install [Git for Windows](https://gitforwindows.org/). In particular, we will need to use the Git Bash (not the Git GUI). 
@@ -35,5 +51,5 @@ You can download a copy of this `Rmd` file on the [course website](https://xdaii
     ```
 
 7. Register a [GitHub](https://www.github.com) account. What is your username?
-
+haley22
 Now Knit the finished Homework 1 one last time, and you are done! The actual submission (push to a GitHub repository) will take place in Lab 1.
